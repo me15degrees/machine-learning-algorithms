@@ -30,7 +30,7 @@ def dividir_csv(caminho_arquivo):
 
     return x_train, x_test, y_train, y_test
 
-caminho_arquivo = 'Iris.csv'
+caminho_arquivo = 'KNN/Iris.csv'
 
 x_train, x_test, y_train, y_test = dividir_csv(caminho_arquivo)
 
@@ -66,5 +66,5 @@ ax.scatter(
     s=20
 )
 
-plt.savefig('knn_3d.png')
+plt.savefig('KNN/knn_3d.png')
 plt.close()
